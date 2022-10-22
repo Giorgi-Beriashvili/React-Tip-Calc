@@ -1,0 +1,26 @@
+.reset-btn {
+	margin: auto;
+	margin-top: 90px;
+	padding: 9px;
+	width: 100%;
+	max-width: 333px;
+	background: none;
+	background-color: #26c2ae;
+	border-radius: 5px;
+	border: none;
+	color: #00474b;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Space Mono';
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+
+	&:hover {
+		background-color: #9fe8df;
+	}
+
+	@media (max-width: 375px) {
+		max-width: 280px;
+		margin-top: 33px;
+	}
+}

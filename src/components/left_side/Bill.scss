@@ -1,0 +1,13 @@
+@import './Mixins.scss';
+
+.bill {
+	@include form;
+
+	&_dollar {
+		@include dollar-people-img;
+	}
+
+	&_input {
+		@include dollar-people-input;
+	}
+}

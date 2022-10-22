@@ -1,0 +1,27 @@
+@mixin dollar-people-img {
+	position: absolute;
+	top: 42px;
+	left: 15px;
+}
+
+@mixin dollar-people-input {
+	border: none;
+	border-radius: 5px;
+	padding: 5px 15px;
+	border: 2px solid #e0e6e7;
+	background-color: #e0e6e7;
+	font-size: 24px;
+	text-align: right;
+	font-family: 'Space Mono';
+
+	&:focus {
+		outline: none;
+		border: 2px solid #26c2ae;
+	}
+}
+
+@mixin form {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}

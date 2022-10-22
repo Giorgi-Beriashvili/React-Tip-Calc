@@ -1,0 +1,6 @@
+@import './Mixins.scss';
+
+.total-tip-container {
+	@include tip-total-container;
+	margin-top: 41px;
+}

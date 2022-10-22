@@ -1,0 +1,15 @@
+.right-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	max-width: 415px;
+	border-radius: 15px;
+	background-color: #00474b;
+	padding: 40px 0;
+
+	@media (max-width: 375px) {
+		width: 330px;
+		padding: 25px 0;
+	}
+}

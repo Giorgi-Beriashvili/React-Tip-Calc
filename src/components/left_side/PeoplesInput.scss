@@ -1,0 +1,30 @@
+@import './Mixins.scss';
+
+.people-container {
+	@media (max-width: 375px) {
+		padding: 35px 0;
+	}
+
+	.people-label {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.error {
+			color: #E17052;
+		}
+	}
+
+	.people {
+		@include form;
+
+		&_person {
+			@include dollar-people-img;
+		}
+
+		&_input {
+			@include dollar-people-input;
+		}
+	}
+}
+
